@@ -9,8 +9,8 @@ This repository provides a setup to run YOLO-based object detection, integrated 
 Clone this repository to your local machine:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/wepandas4/Crime-Detection.git
+cd Crime-Detection
 ```
 
 ### Set Up Virtual Environment
