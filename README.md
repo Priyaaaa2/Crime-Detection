@@ -26,7 +26,7 @@ Make sure you have Python 3.11 installed on your system. Then, create a virtual 
 
 ```bash
 python3.11 -m venv venv
-venv\Scripts\activate  # On Windows, use `source venv/bin/activate`
+venv\Scripts\activate  # On Linux, use `source venv/bin/activate`
 ```
 
 ### Install Dependencies
