@@ -2,7 +2,7 @@
 # YOLO Detection with IPFS and AWS Lambda Integration
 
 This repository provides a setup to run YOLO-based object detection, integrated with IPFS for decentralized file storage, and an AWS Lambda function for managing detections via API Gateway. Follow the steps below to set up and run the project.
----
+
 - [Clone the Repository](#clone-the-repository)
 - [Set Up Virtual Environment](#set-up-virtual-environment)
 - [Install Dependencies](#install-dependencies)
@@ -11,7 +11,7 @@ This repository provides a setup to run YOLO-based object detection, integrated 
 - [Set Up DynamoDB and CLI](#set-up-dynamodb-and-cli)
 - [Create AWS Lambda Function](#create-aws-lambda-function)
 - [Run Detection and Control Station](#run-detection-and-control-station)
----
+
 
 ### Clone the Repository
 Clone this repository to your local machine:
@@ -97,9 +97,6 @@ Install IPFS Desktop and IPFS CLI (also known as IPFS Kubo) as follows:
 
 3. After detection completes, stop `main.py` by terminating the process.
 
----
-
 Your setup is complete! You can now start detecting objects with YOLO and manage results through the Control Station interface.
 ```
 
-Just replace `<your-repo-url>` and `<your-repo-name>` with the appropriate values for your project. This file should cover all the necessary steps for setup and usage.
