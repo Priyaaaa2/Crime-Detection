@@ -1,0 +1,23 @@
+# Core libraries
+jsonlib-python3
+datetime
+
+# Machine Learning / Computer Vision Libraries
+opencv-python
+numpy
+pillow
+ultralytics
+
+# Video Processing
+moviepy
+
+# Flask Web Server
+flask
+apscheduler
+
+# Requests (for API calls)
+requests
+
+# AWS SDK for Python
+boto3
+botocore
