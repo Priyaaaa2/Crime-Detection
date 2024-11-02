@@ -9,7 +9,6 @@ from datetime import datetime
 import ipfs_convertion, pushHash
 
 def main():
-    object1 = ['knife','gun']
 
     cap = cv2.VideoCapture(0)  # Use video path instead of camera
     model = YOLOWorld("models/your-model-for-detection")  # Assuming YOLO instead of YOLOWorld
