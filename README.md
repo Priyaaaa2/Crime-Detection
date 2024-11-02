@@ -91,7 +91,7 @@ Install IPFS Desktop and IPFS CLI (also known as IPFS Kubo) as follows:
 
 2. Run the Control Station (Flask app):
     ```bash
-    cd Control\ Station
+    cd "Control Station"
     flask run
     ```
 
