@@ -1,6 +1,4 @@
-Certainly! Here is the complete code for the `README.md` file:
 
-```markdown
 # YOLO Detection with IPFS and AWS Lambda Integration
 
 This repository provides a setup to run YOLO-based object detection, integrated with IPFS for decentralized file storage, and an AWS Lambda function for managing detections via API Gateway. Follow the steps below to set up and run the project.
