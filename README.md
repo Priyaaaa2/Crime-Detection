@@ -64,7 +64,7 @@ Install IPFS Desktop and IPFS CLI (also known as IPFS Kubo) as follows:
 ### Set Up DynamoDB and CLI
 1. **Create a DynamoDB Table:**
    - Go to the [AWS DynamoDB Console](https://console.aws.amazon.com/dynamodb).
-   - Create a new table with the desired primary key and attributes according to your project requirements.
+   - Create a new table with the desired primary key and attributes same as in `pushHash.py`.
 
 2. **Install AWS CLI:**
    - Follow the instructions on [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
