@@ -98,3 +98,18 @@ Install IPFS Desktop and IPFS CLI (also known as IPFS Kubo) as follows:
 3. After detection completes, stop `main.py` by terminating the process.
 
 Your setup is complete! You can now start detecting objects with YOLO and manage results through the Control Station interface.
+
+## Contributors
+
+We thank our contributors for their efforts and dedication to this project!
+
+| Contributor         | GitHub Profile                                           | Email                        |
+|---------------------|----------------------------------------------------------|------------------------------|
+| **Priyanka M K**    | [Priyaaaa2](https://github.com/Priyaaaa2)                | priyankamk2903@gmail.com     |
+| **Sumukh C**        | [Sumu004](https://github.com/Sumu004)                    | sumukhchaluvaraj@gmail.com   |
+| **Ravi J Gowda**    | [](https://github.com/username3)                         |                              |
+| **Yashwanth M**     | [yashwanthm3012](https://github.com/yashwanthm3012)      | dev.yashwanthm3012@gmail.com |
+
+
+Your support and contributions are invaluable to the success of this project!
+
