@@ -1,0 +1,10 @@
+{
+    "video_paths": [
+        {
+            "path": "detected_videos\\example.mp4",
+            "hash": "CID of the video",
+            "isHashed": false,
+            "dynamoDBstatus": false
+        }
+    ]
+}

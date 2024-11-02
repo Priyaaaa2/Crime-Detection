@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Control Station</title>
+</head>
+<body>
+    <h1>Live Area Alerts</h1>
+    <div id="data-container">
+        <ul id="data-list"></ul>
+    </div>
+
+    <script>
+        // Function to fetch and update data
+        function updateData() {
+            fetch('/data')
+                .then(response => response.json())
+                .then(data => {
+                    const dataList = document.getElementById('data-list');
+                    dataList.innerHTML = '';
+                    data.forEach(item => {
+                        const listItem = document.createElement('li');
+                        listItem.innerHTML = `
+                            <span><strong>CID:</strong> ${item.cid} <strong>Time:</strong> ${item.datetime} <strong>Assigned:</strong> ${item.assignment}</span>
+                            <button onclick="assign('${item.cid}')" ${item.assignment ? 'disabled' : ''}>Assign</button>
+                        `;
+                        dataList.appendChild(listItem);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        }
+
+        // Function to assign the item
+        function assign(cid) {
+            fetch(`/assign/${cid}`, { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`Assigned CID: ${data.cid}`);
+                    updateData(); // Refresh the list
+                })
+                .catch(error => {
+                    console.error('Error assigning item:', error);
+                });
+        }
+
+        // Initial data load
+        updateData();
+
+        // Update data every 10 seconds
+        setInterval(updateData, 10000);
+    </script>
+</body>
+</html>
+    
