@@ -107,7 +107,7 @@ This project was developed by our dedicated team. We are proud of our collective
 |---------------------|----------------------------------------------------------|------------------------------|
 | **Priyanka M K**    | [Priyaaaa2](https://github.com/Priyaaaa2)                | priyankamk2903@gmail.com     |
 | **Sumukh C**        | [Sumu004](https://github.com/Sumu004)                    | sumukhchaluvaraj@gmail.com   |
-| **Ravi J Gowda**    | [](https://github.com/username3)                         |                              |
+| **Ravi J Gowda**    | [RaviGowda29](https://github.com/RaviGowda29)            | ravigowdaedu29@gmail.com     |
 | **Yashwanth M**     | [yashwanthm3012](https://github.com/yashwanthm3012)      | dev.yashwanthm3012@gmail.com |
 
 We appreciate the hard work and collaboration that made this project possible!
